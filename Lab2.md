@@ -113,7 +113,3 @@ public class TempTest {
 }
 ```
 
----
-
-İstersen sana son olarak **PDF’e direkt koymalık tek sayfa format (clean report layout)** da yapabilirim.
-

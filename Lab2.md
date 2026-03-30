@@ -1,4 +1,5 @@
 # a) Graph for the function (CFG)
+<img width="379" height="471" alt="Screenshot 2026-03-30 at 23 32 20" src="https://github.com/user-attachments/assets/ee615321-5c12-496c-943c-79f4085de314" />
 
 **Nodes:**
 

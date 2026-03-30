@@ -1,7 +1,3 @@
-Tamam — sadece istenen bölümleri **kısa, temiz ve direkt PDF’ye koymalık** şekilde veriyorum.
-
----
-
 # a) Graph for the function (CFG)
 
 **Nodes:**

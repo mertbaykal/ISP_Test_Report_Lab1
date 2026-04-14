@@ -1,6 +1,4 @@
 # ISP_Test_Report_Lab1
-This project applies Input Space Partitioning (ISP) and Base Choice Coverage (BCC) to test a Java method that finds common elements between two lists ignoring case sensitivity. The approach ensures systematic, complete, and minimal test coverage.
-
 I used ISP to divide inputs into simple categories like null, empty, and normal cases. Then I used Base Choice Coverage to create 7 tests. Each test changes only one condition, so coverage is systematic but minimal.
 
 # ISP Testing – findCommonIgnoreCase
@@ -174,10 +172,6 @@ public class FindCommonIgnoreCaseTest {
 
 ---
 
-## Conclusion
 
-* We used ISP to divide inputs
-* We used BCC to create tests
-* Only 7 tests cover all important cases
 
 ```

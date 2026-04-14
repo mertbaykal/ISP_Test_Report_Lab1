@@ -15,6 +15,23 @@ This method returns common strings from both lists (case-insensitive).
 It keeps the original format from `list1` and removes duplicates.
 
 ---
+| Test case        | C1 | C2 | C3 | C4 | Result                |
+|------------------|----|----|----|----|------------------------|
+| T1 – base        | 3  | 3  | 2  | 1  | ["Banana", "Cherry"]  |
+| (3, 3, 2, 1)     |    |    |    |    |                        |
+| T2 – list1 empty | 2  | 3  | 2  | 1  | []                     |
+| (2, 3, 2, 1)     |    |    |    |    |                        |
+| T3 – list1 null  | 1  | 3  | –  | –  | exception              |
+| (1, 3, -, -)     |    |    |    |    |                        |
+| T4 – list2 empty | 3  | 2  | 2  | 1  | []                     |
+| (3, 2, 2, 1)     |    |    |    |    |                        |
+| T5 – list2 null  | 3  | 1  | –  | –  | exception              |
+| (3, 1, -, -)     |    |    |    |    |                        |
+| T6 – no match    | 3  | 3  | 1  | 1  | []                     |
+| (3, 3, 1, 1)     |    |    |    |    |                        |
+| T7 – duplicates  | 3  | 3  | 2  | 2  | ["Apple"]              |
+| (3, 3, 2, 2)     |    |    |    |    |                        |
+
 
 ## 1. Characteristics
 
